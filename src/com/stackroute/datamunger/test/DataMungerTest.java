@@ -70,7 +70,7 @@ public class DataMungerTest {
 	@Test(expected = FileNotFoundException.class)
 	public void testFileNotFound() throws IOException {
 		reader = new CsvQueryProcessor("data/ipl2.csv");
-
+		
 	}
 
 	@Test
