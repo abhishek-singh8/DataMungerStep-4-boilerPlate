@@ -132,7 +132,7 @@ public class CsvQueryProcessor extends QueryProcessingEngine {
 			}
 			
 		
-			count++;
+			
 			br.close();
 			DataTypeDefinitions datatype=new DataTypeDefinitions(dataTypeArray);
 		return datatype;
